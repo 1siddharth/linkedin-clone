@@ -1,0 +1,59 @@
+
+.signup-body{
+
+    flex-direction: column;
+    padding-top: 1rem;
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    p{
+        font-size: large;
+        font-weight: bold;
+    }
+    button{
+        &:hover{
+            cursor: pointer;
+        }
+
+    }
+}
+
+.email-box{
+    color: grey;
+    margin-top: 3rem;
+    justify-content: space-around;
+    text-align: left;;
+    input{
+        
+        align-items: center;
+        
+        height: 2rem;
+        width: 100%;
+    }
+}
+.name-box{
+    color: grey;
+    margin-top: 1rem;
+    text-align: left;
+    //justify-content: space-around;
+    input{
+        
+        align-items: left;
+        height: 2rem;
+        width: 100%;
+    }
+
+}
+.password-box{
+    color: grey;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    justify-content: space-around;
+    text-align: left;
+    input{
+        height: 2rem;
+        width: 100%;
+    }
+}
+

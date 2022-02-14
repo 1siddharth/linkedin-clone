@@ -4,9 +4,10 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
     return (
         <div className="nav-bar">
+            <Link to = "/">
             <img className="logo" src="https://logos-download.com/wp-content/uploads/2016/03/LinkedIn_Logo_2003.png"
             alt="LinkedIn"></img>
-
+            </Link>
             <div className="primary-btn">
             <Link to = "/signup">
                  <button className="join-btn"> 

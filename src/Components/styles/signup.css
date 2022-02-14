@@ -1,0 +1,68 @@
+.signup-body {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 1rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signup-body p {
+  font-size: large;
+  font-weight: bold;
+}
+
+.signup-body button:hover {
+  cursor: pointer;
+}
+
+.email-box {
+  color: grey;
+  margin-top: 3rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: left;
+}
+
+.email-box input {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 2rem;
+  width: 100%;
+}
+
+.name-box {
+  color: grey;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.name-box input {
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  height: 2rem;
+  width: 100%;
+}
+
+.password-box {
+  color: grey;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: left;
+}
+
+.password-box input {
+  height: 2rem;
+  width: 100%;
+}
+/*# sourceMappingURL=signup.css.map */

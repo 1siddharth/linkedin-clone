@@ -4,3 +4,6 @@ fileignoreconfig:
 - filename: src/Components/Signin.js
   checksum: ce29c340cb0df617e75a234816c8bcb4a1fddb340fbfebedeeb9c3e2f43c3e1b
 version: ""
+- filename: src/Components/signup.js
+  checksum: b7f970d1d4fa1cd61c736876bd9556d0b843a43bcff964071cb6a229592751ea
+version: ""
