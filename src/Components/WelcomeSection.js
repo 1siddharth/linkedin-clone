@@ -7,26 +7,28 @@ const WelcomeSection = () => {
         <div className="welcome-section">
             <div className="welcome-text">
                 <div>
-                    <h2>
+                    <p className="welcome-title">
                         Welcome to your professional community
-                    </h2>
+                    </p>
                 </div>
-                <div>
-                    <div>
+                <div className="welcome-navigation">
+                    <div className="content">
                         <p>
                             Search for a job
                         </p>
-
+                        <div></div>
                     </div>
-                    <div>
+                    <div className="content">
                         <p>
                             Find a person you know
                         </p>
+                        <div></div>
                     </div>
-                    <div>
+                    <div className="content">
                         <p>
                             Learn a new skill
                         </p>
+                        <div></div>
                     </div>
                 </div>
             </div>

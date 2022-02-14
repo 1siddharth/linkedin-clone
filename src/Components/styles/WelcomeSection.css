@@ -11,6 +11,7 @@
 
 .welcome-text {
   width: 50%;
+  max-width: 25rem;
 }
 
 .welcome-greeting {
@@ -19,5 +20,45 @@
 
 .welcome-greeting img {
   width: 100%;
+}
+
+.welcome-title {
+  font-size: 3rem;
+  text-decoration: none;
+  text-align: left;
+  color: #693410;
+}
+
+.welcome-navigation {
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.welcome-navigation .content {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0 1rem;
+  border: solid;
+  border-width: 1px;
+  border-color: #ced1d3;
+  border-radius: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.welcome-navigation .content:hover {
+  -webkit-box-shadow: 2px 4px 4px 3px #d7d7df;
+          box-shadow: 2px 4px 4px 3px #d7d7df;
+  cursor: pointer;
 }
 /*# sourceMappingURL=WelcomeSection.css.map */

@@ -7,6 +7,7 @@
 
 .welcome-text{
     width: 50%;
+    max-width: 25rem;
 }
 
 .welcome-greeting{
@@ -15,3 +16,34 @@
         width: 100%;
     }
 }
+
+.welcome-title{
+    font-size: 3rem;
+    text-decoration: none;
+    text-align: left;
+    color: rgb(105, 52, 16);
+}
+
+.welcome-navigation{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .content{
+        width: 100%;
+        margin-top: 1rem;
+        padding: 0 1rem;
+        border: solid;
+        border-width: 1px;
+        border-color: rgb(206, 209, 211);
+        border-radius: 0.5rem;
+        display: flex;
+        &:hover{
+            box-shadow: 2px 4px 4px 3px rgb(215, 215, 223);
+            cursor: pointer;
+            // background-color: red;
+        }
+    }
+    
+}
+
