@@ -2,13 +2,27 @@ import React from 'react';
 import './App.css';
 import NavBar from './Components/NavBar';
 import WelcomeSection from './Components/WelcomeSection';
-
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from "react-router-dom";
+import { Routes } from 'react-router-dom';
+import Signin from './Components/Signin';
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-      <WelcomeSection/>
+      <Router>
+        <NavBar/>
+        <Routes>
+          <Route exact path="/" element={<WelcomeSection/>}/>
+          <Route path="/signin" element={<Signin/>}/>
+          <Route path = "/signup" element={<WelcomeSection/>}/> 
+        </Routes>
+        
+      </Router>
+      
     </div>
   );
 }

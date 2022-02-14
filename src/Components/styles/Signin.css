@@ -1,0 +1,74 @@
+.box-container {
+  padding-top: 5rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signin-box {
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 25rem;
+  -webkit-box-shadow: 2px 2px 15px 1px #929292;
+          box-shadow: 2px 2px 15px 1px #929292;
+}
+
+.signin-box h1 {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.signin-box p {
+  margin-top: 2px;
+  color: #5c5b59;
+  text-align: left;
+}
+
+.user-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.user-inputs input {
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  font-size: medium;
+}
+
+.forgot-password {
+  color: #0073b1;
+  text-align: left;
+  font-weight: bold;
+}
+
+.forgot-password:hover {
+  cursor: pointer;
+}
+
+button {
+  font-size: medium;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  color: white;
+  border-radius: 2rem;
+  background-color: #0073b1;
+  width: 90%;
+  padding: 15px;
+  margin: 10px;
+  margin-bottom: 5rem;
+}
+/*# sourceMappingURL=Signin.css.map */
