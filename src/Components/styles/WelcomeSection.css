@@ -54,11 +54,16 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: white;
 }
 
 .welcome-navigation .content:hover {
   -webkit-box-shadow: 2px 4px 4px 3px #d7d7df;
           box-shadow: 2px 4px 4px 3px #d7d7df;
   cursor: pointer;
+}
+
+.welcome-navigation .content p {
+  margin: 1rem;
 }
 /*# sourceMappingURL=WelcomeSection.css.map */

@@ -38,10 +38,14 @@
         border-color: rgb(206, 209, 211);
         border-radius: 0.5rem;
         display: flex;
+        background-color: white;
         &:hover{
             box-shadow: 2px 4px 4px 3px rgb(215, 215, 223);
             cursor: pointer;
             // background-color: red;
+        }
+        p{
+            margin: 1rem;
         }
     }
     
