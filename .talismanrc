@@ -1,9 +1,5 @@
+
 fileignoreconfig:
-- filename: package-lock.json
-  checksum: 54f9be9462a1c7b8ad8433ec1e6b4d6c5e5e8e50a42854469114bd72b4fdbe08
-- filename: src/Components/Signin.js
-  checksum: ce29c340cb0df617e75a234816c8bcb4a1fddb340fbfebedeeb9c3e2f43c3e1b
-version: ""
 - filename: src/Components/signup.js
   checksum: b7f970d1d4fa1cd61c736876bd9556d0b843a43bcff964071cb6a229592751ea
 version: ""

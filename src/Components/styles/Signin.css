@@ -12,6 +12,10 @@
           align-items: center;
 }
 
+.box-container button:hover {
+  cursor: pointer;
+}
+
 .signin-box {
   padding: 1rem;
   border-radius: 8px;

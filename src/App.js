@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import { Routes } from 'react-router-dom';
 import Signin from './Components/Signin';
+import Signup from './Components/signup';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<WelcomeSection/>}/>
           <Route path="/signin" element={<Signin/>}/>
-          <Route path = "/signup" element={<WelcomeSection/>}/> 
+          <Route path = "/signup" element={<Signup/>}/> 
         </Routes>
         
       </Router>
