@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAA;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,IAAI;CACnB;;AAED,AAAA,aAAa,CAAA;EACT,KAAK,EAAE,GAAG;CACb;;AAED,AAAA,iBAAiB,CAAA;EACb,KAAK,EAAE,GAAG;CAIb;;AALD,AAEI,iBAFa,CAEb,GAAG,CAAA;EACC,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "WelcomeSection.scss"
+    ],
+    "names": [],
+    "file": "WelcomeSection.css"
+}

@@ -1,0 +1,17 @@
+.welcome-section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.welcome-text{
+    width: 50%;
+}
+
+.welcome-greeting{
+    width: 50%;
+    img{
+        width: 100%;
+    }
+}

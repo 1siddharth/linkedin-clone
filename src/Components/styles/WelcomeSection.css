@@ -1,0 +1,23 @@
+.welcome-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.welcome-text {
+  width: 50%;
+}
+
+.welcome-greeting {
+  width: 50%;
+}
+
+.welcome-greeting img {
+  width: 100%;
+}
+/*# sourceMappingURL=WelcomeSection.css.map */
