@@ -27,13 +27,40 @@
   margin: 1rem;
 }
 
+.primary-btn .join-btn {
+  border: none;
+  color: gray;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.primary-btn .join-btn:hover {
+  border-radius: 0.3rem;
+  cursor: pointer;
+  background-color: #ebe6e6;
+}
+
+.primary-btn .signin-btn {
+  border-radius: 1.3rem;
+  border-width: 1px;
+  font-size: medium;
+  font-weight: bolder;
+  color: #0073b1;
+  border-color: #0073b1;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.primary-btn .signin-btn:hover {
+  cursor: pointer;
+  background-color: #cbeaf7;
+}
+
 .primary-btn button {
   margin: 0.5rem;
   padding: 0.5rem;
   background: none;
   cursor: pointer;
   outline: inherit;
-  border-radius: 30%;
-  background-color: #a2b3b3;
 }
 /*# sourceMappingURL=NavBar.css.map */

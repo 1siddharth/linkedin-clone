@@ -15,17 +15,47 @@
     display: flex;
     justify-content: space-between;
     margin: 1rem;
+    .join-btn{
+        border: none;
+        color: gray;
+        font-weight: bold;
+        font-size: medium;
+        &:hover{
+            //border: solid;
+            border-radius: 0.3rem;
+            cursor: pointer;
+            background-color: rgb(235, 230, 230)
+        }
+        
+    }
+    .signin-btn
+    {
+       border-radius: 1.3rem;
+       border-width: 1px; 
+       font-size: medium;
+       font-weight: bolder;
+       color: #0073b1;
+       border-color: #0073b1;
+       padding-left: 1rem;
+       padding-right: 1rem;
+       &:hover{
+        cursor: pointer;
+        background-color: rgb(203, 234, 247)
+    }
+
+    }
     // width: 3rem;
     button{
         margin: 0.5rem;
         padding: 0.5rem;
         background: none;
+        
         // border: none;
         cursor: pointer;
         // border: solid;
         // border-width: 1px;
         outline: inherit;
-        border-radius: 30%;
-        background-color: rgb(162, 179, 179);
+        //border-radius: 30%;
+        //background-color: rgb(162, 179, 179);
     }
 }

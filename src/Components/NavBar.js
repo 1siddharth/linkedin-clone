@@ -8,10 +8,11 @@ const NavBar = () => {
             alt="LinkedIn"></img>
 
             <div className="primary-btn">
-                <button>Sign In</button>
-                <button>
-                    Join
+                 <button className="join-btn"> 
+                    Join Now
                 </button>
+                <button className="signin-btn"> Sign in</button>
+                
             </div>
         </div>
  
