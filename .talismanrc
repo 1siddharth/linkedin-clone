@@ -3,3 +3,7 @@ fileignoreconfig:
 - filename: src/Components/signup.js
   checksum: b7f970d1d4fa1cd61c736876bd9556d0b843a43bcff964071cb6a229592751ea
 version: ""
+fileignoreconfig:
+- filename: package-lock.json
+  checksum: 210bb27cb8f99db7c702cb2e9b5866366837a2bafaf3ac6437a12b88fd7d487e
+version: ""

@@ -10,16 +10,18 @@ import {
 import { Routes } from 'react-router-dom';
 import Signin from './Components/Signin';
 import Signup from './Components/signup';
+import NavBarDashboard from './Components/NavBarDashboard';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <NavBar/>
+        <NavBarDashboard />
         <Routes>
           <Route exact path="/" element={<WelcomeSection/>}/>
           <Route path="/signin" element={<Signin/>}/>
           <Route path = "/signup" element={<Signup/>}/> 
+          
         </Routes>
         
       </Router>
